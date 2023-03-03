@@ -1,0 +1,9 @@
+COPY actor FROM '/Users/tomas/Desktop/data/actor_table' DELIMITER ',';
+COPY director FROM '/Users/tomas/Desktop/data/director' DELIMITER ',';
+COPY genres FROM '/Users/tomas/Desktop/data/genres' DELIMITER ',';
+COPY movie FROM '/Users/tomas/Desktop/data/movie' DELIMITER ',';
+COPY movie_cast FROM '/Users/tomas/Desktop/data/movie_cast' DELIMITER ',';
+COPY movie_direction FROM '/Users/tomas/Desktop/data/movie_direction' DELIMITER ',';
+COPY movie_genres FROM '/Users/tomas/Desktop/data/movie_genres' DELIMITER ',';
+COPY reviewer FROM '/Users/tomas/Desktop/data/reviewer' DELIMITER ',';
+COPY rating FROM '/Users/tomas/Desktop/data/rating' DELIMITER ',';
